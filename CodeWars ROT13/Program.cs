@@ -14,7 +14,6 @@ namespace CodeWars_ROT13
             Console.ReadLine();
         }
 
-
         public static string Rot13(string input)
         {
             string[] alphabet = new string[] { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m" };
@@ -30,7 +29,6 @@ namespace CodeWars_ROT13
                             rotSentence += alphabet[j + 13];
                             break;
                         }
-
                     }
                 }
                 else
@@ -39,8 +37,6 @@ namespace CodeWars_ROT13
                 }
             }
             return rotSentence;
-
         }
-
     }
 }
